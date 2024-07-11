@@ -1,0 +1,70 @@
+/* Custom CSS for the Portfolio Website */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #343a40 !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+header {
+    background: url('header-background.jpg') center/cover no-repeat;
+    height: 50vh;
+}
+
+.profile-image {
+    border: 5px solid #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.about-info {
+    max-width: 700px;
+    margin: auto;
+}
+
+.internship-image {
+    cursor: pointer;
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9 !important;
+    border-color: #0062cc !important;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .about-info {
+        text-align: center;
+    }
+}
